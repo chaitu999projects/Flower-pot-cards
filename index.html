@@ -20,19 +20,18 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        header {
-            z-index: 1;
-            margin-bottom: 40px;
+        .title-section {
+            margin: 20px 0px;
             background-color: #e6c7db;
             text-transform: uppercase;
         }
 
-        header h2 {
+        .title.section h2 {
             font-weight: 700;
             color: #fff;
         }
 
-         header span {
+         .title-section span {
             color: #f153b5;
         }
 
@@ -72,16 +71,19 @@
     </style>
   </head>
   <body>
-    <!-- ========= Header Section ============-->
-    <header class="p-3 sticky-top">
-        <h2 class="text-center">
-            Latest <span>Products</span>
-        </h2>
-    </header>
+    <!-- ========= Title Section ============-->
+    
     <!-- ========= Main Section ============-->
     <main>
         <div class="container">
             <div class="row">
+                <div class="col-12">
+                    <div class="title-section p-3">
+                        <h2 class="text-center">
+                            Latest <span>Products</span>
+                        </h2>
+                    </div>
+                </div>
                 <div class="col-12 col-md-6 col-lg-4 my-2 rounded">
                     <div class="card p-4 shadow">
                         <span class="offer">-10%</span>
